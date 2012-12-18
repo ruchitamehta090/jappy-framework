@@ -1,64 +1,54 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Jappy-framework : Let's make Java Happy" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Jappy-framework</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Jappy-framework by jarsj</title>
   </head>
 
   <body>
+    <div id="container">
+      <div class="inner">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jarsj/jappy-framework">View on GitHub</a>
-
-          <h1 id="project_title">Jappy-framework</h1>
-          <h2 id="project_tagline">Let's make Java Happy</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/jarsj/jappy-framework/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/jarsj/jappy-framework/tarball/master">Download this project as a tar.gz file</a>
-            </section>
+        <header>
+          <h1>Jappy-framework</h1>
+          <h2>Let's make Java Happy</h2>
         </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>What is Jappy Framework ?</h3>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/jarsj/jappy-framework/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/jarsj/jappy-framework/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/jarsj/jappy-framework" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
-<p>Jappy Framework makes Java happy to use for many common use cases like working with databases, logging, sending emails or doing some crawl. Java is a beautiful language. Some of the best libraries are stable in Java. Other languages/frameworks are attracting early adopters with simple syntax, quick setup and Java is loosing with its complex config files, factory stuff to do simple things, etc. Jappy-Framework aims to fix that.</p>
+        <hr>
 
-<p>We follow the following philosophy</p>
-<ul>
-  <li>No Config Files</li>
-  <li>Simple static API</li>
-  <li>Beautiful/Powerful Admin Interfaces</li>
-</ul>
+        <section id="main_content">
+          <h3>Welcome to GitHub Pages.</h3>
 
-<h3>Table</h3>
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<p></p>
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-<h3>Log</h3>
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<code>
-  // Simple logging with global settings.
-  final Log LOG = Log.get("logger");
+<h3>Designer Templates</h3>
 
-  // Custom logging.
-  final Log LOG = Log.get("logger").console().file("/mnt/logs").email("harsh@harsh.com", Priority.ERROR);
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-  // To log
-  LOG.info("Boom");
-  
-</code>
+<h3>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
 <h3>Authors and Contributors</h3>
 
@@ -67,18 +57,15 @@
 <h3>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+        </section>
+
+        <footer>
+          Jappy-framework is maintained by <a href="https://github.com/jarsj">jarsj</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Jappy-framework maintained by <a href="https://github.com/jarsj">jarsj</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
   </body>
 </html>
