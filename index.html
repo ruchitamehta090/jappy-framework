@@ -53,7 +53,10 @@
   final Log LOG = Log.get("logger");
 
   // Custom logging.
-  final Log LOG = Log.get("logger").console().file("/mnt/logs").email("harsh@harsh.com", Priority.ERROR);
+  final Log LOG = Log.get("logger")
+                    .console()
+                    .file("/mnt/logs")
+                    .email("harsh@harsh.com", Priority.ERROR);
 
   // To log
   LOG.info("Boom");
