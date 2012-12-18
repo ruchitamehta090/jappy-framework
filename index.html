@@ -46,6 +46,20 @@
 
 <p></p>
 
+<h3>Log</h3>
+
+<code>
+  // Simple logging with global settings.
+  final Log LOG = Log.get("logger");
+
+  // Custom logging.
+  final Log LOG = Log.get("logger").console().file("/mnt/logs").email("harsh@harsh.com", Priority.ERROR);
+
+  // To log
+  LOG.info("Boom");
+  
+</code>
+
 <h3>Authors and Contributors</h3>
 
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
